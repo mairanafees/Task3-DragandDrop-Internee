@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drag and Drop Uploader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Upload Image</h2>
+
+<div id="drop-area">
+    <p>Drag & Drop Image Here</p>
+    <input type="file" id="fileInput" hidden>
+    <button onclick="openFile()">Choose File</button>
+</div>
+
+<div id="error"></div>
+
+<div id="progress-container">
+    <div id="progress-bar"></div>
+</div>
+
+<img id="preview">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
